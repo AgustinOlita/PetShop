@@ -54,7 +54,7 @@
     margin-left: 10px;
 }
 
-/*  Body/Main  */
+/*  Main  */
 
 /*  First Section  */
 
@@ -85,14 +85,14 @@
 }
 
 .comederos-button {
-    width: auto;
-    height: 32px;
+    width: 8%;
+    height: 7%;
     border: none;
     background-color: #F0A83E;
     color: #FFFFFF;
     position: relative;
     bottom: 21%;
-    left: 6%;
+    left: 4%;
     border-radius: 7%;
     font-weight: lighter;
     font-size: 16px;
@@ -195,10 +195,67 @@
 /* Section Form */
 
 .contenedor-form {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.legend-form {
+    font-size: 35px;
+    font-weight: bold;
+    color: #3C2313;
+}
+
+.inputcontact {
+    border: none;
+    height: 5vh;
+    width: 50vh;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+.button-reset {
+    background-color: #8A8787;
+    color: #FFFFFF;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+}
+
+.button-send {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+}
+
+/* Footer */
+
+/* Top suscribe section */
+
+.footer-top {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
