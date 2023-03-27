@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header-top {
+    width: auto;
+    height: 5vh;
+    font-size: 14px;
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top > span {
+    margin-left: 20px;
+}
+
+.nav-header-top {
+    margin-right: 10px;
+}
+
+.header-bottom {
+    width: auto;
+    height: 10vh;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom img {
+    margin-left: 20px;
+}
+
+.header-nav-bottom span::before {
+    content: url(../img/pawprint\ 4.png);
+    color: #FFFFFF;
+}
+
+.header-nav-bottom span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*  Body/Main  */
+
+.top-body-section {
+    height: 80vh;
+    width: auto;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+}
