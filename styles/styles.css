@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -56,8 +56,149 @@
 
 /*  Body/Main  */
 
+/*  First Section  */
+
 .top-body-section {
     height: 80vh;
     width: auto;
+    display: flex;
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: last baseline;
+}
+
+.section-h2 {
+    width: auto;
+    background-color: #FFFFFF;
+    margin-right: 5%;
+    position: relative;
+    top: 10%;
+}
+
+.paragraph-sectiontop {
+    position: relative;
+    left: 3%;
+    bottom: 5%;
+}
+
+.comederos-button {
+    width: auto;
+    height: 32px;
+    border: none;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 21%;
+    left: 6%;
+    border-radius: 7%;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.comederos-button > button {
+    display: cover;
+}
+
+/*   Second Section    */
+
+.second-section {
+    width: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-section img {
+    position: relative;
+    top: 15%;
+}
+
+.second-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second-section nav {
+    position: relative;
+    bottom: 15%;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tarjeta-churrasquito {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-churrasquito p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarjeta-churrasquito span {
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarjeta-comedero {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-comedero p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarjeta-comedero span {
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarjeta-huesito {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tarjeta-huesito p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarjeta-huesito span {
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Section Form */
+
+.contenedor-form {
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
